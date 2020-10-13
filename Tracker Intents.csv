@@ -1,0 +1,337 @@
+Index,MlDomainName,MlIntentName,Utterance
+1,Tracker_Intents,Add_Note,add a note
+2,Tracker_Intents,Add_Note,add a note to the appointment
+3,Tracker_Intents,Add_Note,add note to job
+4,Tracker_Intents,Add_Note,Add note
+5,Tracker_Intents,Add_Note,notate work order
+6,Tracker_Intents,Add_Note,add customer note
+7,Tracker_Intents,Add_Note,make note
+8,Tracker_Intents,Arrive,arrived at appointment
+9,Tracker_Intents,Arrive,onsite
+10,Tracker_Intents,Arrive,starting to work
+11,Tracker_Intents,Arrive,arrived at customer site
+12,Tracker_Intents,Arrive,arrived onsite
+13,Tracker_Intents,Arrive,at job
+14,Tracker_Intents,Arrive,starting work
+15,Tracker_Intents,Arrive,starting job
+16,Tracker_Intents,Arrive,here at customer
+17,Tracker_Intents,Arrive,here onsite
+18,Tracker_Intents,Arrive,Arrived
+19,Tracker_Intents,Arrive,work starting
+20,Tracker_Intents,Arrive,at customer site
+21,Tracker_Intents,Arrive,job in progress
+22,Tracker_Intents,Arrive,Arrive
+23,Tracker_Intents,Arrive,I'm here
+24,Tracker_Intents,Arrive,starting appointment
+25,Tracker_Intents,Arrive,job starting
+26,Tracker_Intents,Arrive,beginning work
+27,Tracker_Intents,Arrive,beginning
+28,Tracker_Intents,Arrive,beginning job
+29,Tracker_Intents,Complete,appointment completed
+30,Tracker_Intents,Complete,work done
+31,Tracker_Intents,Complete,complete appointment
+32,Tracker_Intents,Complete,job finished
+33,Tracker_Intents,Complete,Completed
+34,Tracker_Intents,Complete,finished
+35,Tracker_Intents,Complete,completed appointment
+36,Tracker_Intents,Complete,appointment done
+37,Tracker_Intents,Complete,finish job
+38,Tracker_Intents,Complete,close job
+39,Tracker_Intents,Complete,close work
+40,Tracker_Intents,Complete,job all set here
+41,Tracker_Intents,Complete,work all set
+42,Tracker_Intents,Complete,Complete
+43,Tracker_Intents,Complete,I'm done
+44,Tracker_Intents,Complete,job completed
+45,Tracker_Intents,Complete,complete job
+46,Tracker_Intents,Complete,appointment finished
+47,Tracker_Intents,Complete,completed my work
+48,Tracker_Intents,Complete,job done
+49,Tracker_Intents,Complete,done
+50,Tracker_Intents,Accept,Accept
+51,Tracker_Intents,Accept,Accepted
+52,Tracker_Intents,Accept,Confirm
+53,Tracker_Intents,Accept,dispatch
+54,Tracker_Intents,Accept,dispatch that
+55,Tracker_Intents,Accept,confirm that appointment
+56,Tracker_Intents,Accept,confirm my appointment
+57,Tracker_Intents,Accept,that time works for me
+58,Tracker_Intents,Accept,lets go with that time
+59,Tracker_Intents,Accept,confirm the appointment
+60,Tracker_Intents,Accept,that time is good
+61,Tracker_Intents,Accept,confirm that
+62,Tracker_Intents,Accept,customer confirmed
+63,Tracker_Intents,Accept,Confirmed
+64,Tracker_Intents,Accept,that works
+65,Tracker_Intents,Accept,confirm appointment
+66,Tracker_Intents,Accept,dispatched
+67,Tracker_Intents,Accept,appointment time works
+68,Tracker_Intents,Accept,appointment is dispatched
+69,Tracker_Intents,Accept,That sounds good
+70,Tracker_Intents,Accept,i can make that work
+71,Tracker_Intents,Accept,that sounds good to me
+72,Tracker_Intents,Accept,appointment confirmed
+73,Tracker_Intents,Get_Appointment_Status,What's my appointment status?
+74,Tracker_Intents,Get_Appointment_Status,What's my appointment ETA?
+75,Tracker_Intents,Get_Appointment_Status,What's your ETA?
+76,Tracker_Intents,Get_Appointment_Status,Status of my appointment
+77,Tracker_Intents,Get_Appointment_Status,What time is my appointment?
+78,Tracker_Intents,Get_Appointment_Status,When will my tech arrive?
+79,Tracker_Intents,Get_Appointment_Status,Where is my tech?
+80,Tracker_Intents,Get_Appointment_Status,What time will they get here?
+81,Tracker_Intents,Get_Appointment_Status,How far away is your technician?
+82,Tracker_Intents,Get_Appointment_Status,What's the ETA for the driver?
+83,Tracker_Intents,Get_Appointment_Status,How far away is the driver right now?
+84,Tracker_Intents,Get_Appointment_Status,status of appointment
+85,Tracker_Intents,Get_Appointment_Status,what's the ETA?
+86,Tracker_Intents,Get_Appointment_Status,latest eta?
+87,Tracker_Intents,Get_Appointment_Status,current ETA
+88,Tracker_Intents,Get_Appointment_Status,are you guys coming?
+89,Tracker_Intents,Get_Appointment_Status,my appointment status
+90,Tracker_Intents,Get_Appointment_Status,what's the latest status?
+91,Tracker_Intents,Get_Appointment_Status,Appointment Status
+92,Tracker_Intents,Get_Appointment_Status,latest status
+93,Tracker_Intents,Get_Appointment_Status,when will you show up?
+94,Tracker_Intents,Get_Appointment_Status,whats the status?
+95,Tracker_Intents,Get_Appointment_Status,my status?
+96,Tracker_Intents,Get_Appointment_Status,what is your ETA?
+97,Tracker_Intents,Get_Appointment_Status,whats the status of my appointment?
+98,Tracker_Intents,Get_Appointment_Status,are we still ontime for my appointment?
+99,Tracker_Intents,Get_Appointment_Status,when are you coming?
+100,Tracker_Intents,Get_Appointment_Status,status
+101,Tracker_Intents,Get_Appointment_Status,get status
+102,Tracker_Intents,Get_Appointment_Status,get appointment status
+103,Tracker_Intents,Get_Appointment_Status,are we still on for the appointment?
+104,Tracker_Intents,Get_Appointment_Status,ETA
+105,Tracker_Intents,Get_Appointment_Status,assignment status
+106,Tracker_Intents,Greetings,Hey Tracker
+107,Tracker_Intents,Greetings,Hi Tracker
+108,Tracker_Intents,Greetings,Whats up Tracker
+109,Tracker_Intents,Greetings,Tracker
+110,Tracker_Intents,Greetings,Hello
+111,Tracker_Intents,Greetings,Howdy
+112,Tracker_Intents,Greetings,Hello Tracker
+113,Tracker_Intents,Greetings,What's up?
+114,Tracker_Intents,Greetings,Sup
+115,Tracker_Intents,Greetings,who are you?
+116,Tracker_Intents,Greetings,Sup Tracker
+117,Tracker_Intents,Greetings,how are you?
+118,Tracker_Intents,Greetings,Are you there tracker?
+119,Tracker_Intents,Greetings,What's up tracker?
+120,Tracker_Intents,Greetings,Sup man?
+121,Tracker_Intents,Greetings,what's happenin tracker?
+122,Tracker_Intents,Greetings,Yo
+123,Tracker_Intents,Greetings,Greetings
+124,Tracker_Intents,Greetings,You there?
+125,Tracker_Intents,Greetings,hello?
+126,Tracker_Intents,Greetings,anyone there?
+127,Tracker_Intents,Greetings,Hi
+128,Tracker_Intents,Greetings,Greetings Tracker
+129,Tracker_Intents,Greetings,yelllow
+130,Tracker_Intents,Greetings,what are you?
+131,Tracker_Intents,Main_Menu,Home
+132,Tracker_Intents,Main_Menu,Menu
+133,Tracker_Intents,Main_Menu,Go home
+134,Tracker_Intents,Main_Menu,help!
+135,Tracker_Intents,Main_Menu,Can you help me?
+136,Tracker_Intents,Main_Menu,main
+137,Tracker_Intents,Main_Menu,fsl options
+138,Tracker_Intents,Main_Menu,help
+139,Tracker_Intents,Main_Menu,help me
+140,Tracker_Intents,Main_Menu,rider help
+141,Tracker_Intents,Main_Menu,Go back home
+142,Tracker_Intents,Main_Menu,Main Options
+143,Tracker_Intents,Main_Menu,Main Screen
+144,Tracker_Intents,Main_Menu,Start over
+145,Tracker_Intents,Main_Menu,back to safety
+146,Tracker_Intents,Main_Menu,main menu!
+147,Tracker_Intents,Main_Menu,main options
+148,Tracker_Intents,Main_Menu,go back!
+149,Tracker_Intents,Main_Menu,Back
+150,Tracker_Intents,Main_Menu,rider main
+151,Tracker_Intents,Main_Menu,help me!
+152,Tracker_Intents,Main_Menu,Main Menu
+153,Tracker_Intents,Main_Menu,Go Back
+154,Tracker_Intents,Main_Menu,start this whole thing over
+155,Tracker_Intents,Reject,Reject
+156,Tracker_Intents,Reject,Rejected
+157,Tracker_Intents,Reject,Reject that
+158,Tracker_Intents,Reject,reject this
+159,Tracker_Intents,Reject,reject that job
+160,Tracker_Intents,Reject,reject appointment
+161,Tracker_Intents,Reject,reject job
+162,Tracker_Intents,View_Appointments,select a different service
+163,Tracker_Intents,View_Appointments,how do I see my appointments?
+164,Tracker_Intents,View_Appointments,what services do i have?
+165,Tracker_Intents,View_Appointments,view my appointments
+166,Tracker_Intents,View_Appointments,show me my meetings
+167,Tracker_Intents,View_Appointments,Choose Appointment
+168,Tracker_Intents,View_Appointments,see appointments
+169,Tracker_Intents,View_Appointments,select a different appointment
+170,Tracker_Intents,View_Appointments,what are my appointments?
+171,Tracker_Intents,View_Appointments,what appointments do I have?
+172,Tracker_Intents,View_Appointments,change appointment
+173,Tracker_Intents,View_Appointments,select a different one
+174,Tracker_Intents,View_Appointments,Select
+175,Tracker_Intents,View_Appointments,What are my service appointments?
+176,Tracker_Intents,View_Appointments,Do i have upcoming appointments?
+177,Tracker_Intents,View_Appointments,where are my appointments?
+178,Tracker_Intents,View_Appointments,Select Appointments
+179,Tracker_Intents,View_Appointments,view assignments
+180,Tracker_Intents,View_Appointments,view my work
+181,Tracker_Intents,View_Appointments,show assignments
+182,Tracker_Intents,View_Appointments,my jobs
+183,Tracker_Intents,View_Appointments,all jobs
+184,Tracker_Intents,View_Appointments,show jobs
+185,Tracker_Intents,View_Appointments,view appointments
+186,Tracker_Intents,View_Appointments,What Service Appointments do I have?
+187,Tracker_Intents,View_Appointments,view all appointments
+188,Tracker_Intents,View_Appointments,show me my appointments
+189,Tracker_Intents,View_Appointments,select my appointments
+190,Tracker_Intents,View_Appointments,choose appointments
+191,Tracker_Intents,View_Appointments,where are all my appointments?
+192,Tracker_Intents,Thanks,Thank you
+193,Tracker_Intents,Thanks,Great
+194,Tracker_Intents,Thanks,thanks tracker
+195,Tracker_Intents,Thanks,awesome
+196,Tracker_Intents,Thanks,Ok
+197,Tracker_Intents,Thanks,thanks
+198,Tracker_Intents,Thanks,Great!
+199,Tracker_Intents,Thanks,Awesome!
+200,Tracker_Intents,Thanks,thanks a lot
+201,Tracker_Intents,Thanks,Thanks!
+202,Tracker_Intents,Thanks,okie dokie
+203,Tracker_Intents,Thanks,sweet thanks
+204,Tracker_Intents,Thanks,amazing! Thank you.
+205,Tracker_Intents,Thanks,cool
+206,Tracker_Intents,Transfer_to_Agent,to talk to a live agent
+207,Tracker_Intents,Transfer_to_Agent,send me to a human
+208,Tracker_Intents,Transfer_to_Agent,do not want to chat with a bot
+209,Tracker_Intents,Transfer_to_Agent,how do I get to a human
+210,Tracker_Intents,Transfer_to_Agent,how do I talk to a person
+211,Tracker_Intents,Transfer_to_Agent,want a human
+212,Tracker_Intents,Transfer_to_Agent,I want you to transfer me to a human right now
+213,Tracker_Intents,Transfer_to_Agent,really need a human being
+214,Tracker_Intents,Transfer_to_Agent,want to chat with a real person
+215,Tracker_Intents,Transfer_to_Agent,want to chat with a human being
+216,Tracker_Intents,Transfer_to_Agent,transfer me to a chat agent
+217,Tracker_Intents,Transfer_to_Agent,send me to a live agent
+218,Tracker_Intents,Transfer_to_Agent,Transfer me to an agent
+219,Tracker_Intents,Transfer_to_Agent,I want to talk with someone else
+220,Tracker_Intents,Transfer_to_Agent,send me to an agent
+221,Tracker_Intents,Transfer_to_Agent,a real person to chat with
+222,Tracker_Intents,Transfer_to_Agent,Help me now please!
+223,Tracker_Intents,Transfer_to_Agent,I need service
+224,Tracker_Intents,Transfer_to_Agent,Can I talk to a human?
+225,Tracker_Intents,Transfer_to_Agent,Human
+226,Tracker_Intents,Transfer_to_Agent,Why am I talking to a robot?
+227,Tracker_Intents,Transfer_to_Agent,Are you a bot? I'd like a human
+228,Tracker_Intents,Transfer_to_Agent,Transfer to billing department
+230,Tracker_Intents,Transfer_to_Agent,Let me chat with car
+231,Tracker_Intents,Transfer_to_Agent,I want to chat with customer service
+232,Tracker_Intents,Transfer_to_Agent,I want to talk with a person
+233,Tracker_Intents,Transfer_to_Agent,Talk to manager
+234,Tracker_Intents,Transfer_to_Agent,I want to chat with a rep
+235,Tracker_Intents,Transfer_to_Agent,Connect me to an agent!
+236,Tracker_Intents,Transfer_to_Agent,Speak with supervisor
+237,Tracker_Intents,Transfer_to_Agent,I want to speak with customer service
+238,Tracker_Intents,Transfer_to_Agent,Can you transfer me?
+239,Tracker_Intents,Transfer_to_Agent,Person please
+240,Tracker_Intents,Transfer_to_Agent,Connect me to a human
+241,Tracker_Intents,Transfer_to_Agent,Can I talk to a manager
+242,Tracker_Intents,Transfer_to_Agent,Do you have any real humans to can talk to?
+243,Tracker_Intents,Transfer_to_Agent,Chat with supervisor
+244,Tracker_Intents,Transfer_to_Agent,Talk to an agent!
+245,Tracker_Intents,Transfer_to_Agent,I need an agent!
+246,Tracker_Intents,Transfer_to_Agent,chat with a human
+247,Tracker_Intents,Transfer_to_Agent,Transfer me
+248,Tracker_Intents,Transfer_to_Agent,Can I talk with a human
+249,Tracker_Intents,Transfer_to_Agent,Send me to your supervisor
+250,Tracker_Intents,Transfer_to_Agent,Give me an agent.
+251,Tracker_Intents,Transfer_to_Agent,Can I talk to an agent?
+252,Tracker_Intents,Transfer_to_Agent,Need to speak with support
+253,Tracker_Intents,Transfer_to_Agent,Connect agent
+254,Tracker_Intents,Transfer_to_Agent,"Agent, please!"
+255,Tracker_Intents,Transfer_to_Agent,Contact agent
+256,Tracker_Intents,Transfer_to_Agent,I want to speak with support
+257,Tracker_Intents,Transfer_to_Agent,I need to speak with an agent
+258,Tracker_Intents,Transfer_to_Agent,I want a human
+259,Tracker_Intents,Transfer_to_Agent,A human could do a better job here
+260,Tracker_Intents,Transfer_to_Agent,Speak with human
+261,Tracker_Intents,Transfer_to_Agent,Agent please!
+262,Tracker_Intents,Transfer_to_Agent,"bill is a smart guy, can you transfer me to him"
+263,Tracker_Intents,Transfer_to_Agent,Just send me to a human
+264,Tracker_Intents,Transfer_to_Agent,I don't think you can help me
+265,Tracker_Intents,Transfer_to_Agent,"Take me to a human, I don't want to talk to you"
+266,Tracker_Intents,Transfer_to_Agent,Representative
+267,Tracker_Intents,Transfer_to_Agent,I just want to be transferred to someone who knows what they're saying
+268,Tracker_Intents,Transfer_to_Agent,Can you pls transfer me now?
+269,Tracker_Intents,Transfer_to_Agent,Can I talk with someone
+270,Tracker_Intents,Transfer_to_Agent,Agent
+271,Tracker_Intents,Transfer_to_Agent,I want to talk to a human!
+272,Tracker_Intents,Transfer_to_Agent,Let me chat with CSR
+273,Tracker_Intents,Transfer_to_Agent,Can I chat with person instead?
+274,Tracker_Intents,Transfer_to_Agent,Let me chat with customer service
+275,Tracker_Intents,Transfer_to_Agent,Speak to agent
+276,Tracker_Intents,Transfer_to_Agent,Transfer me to a person
+277,Tracker_Intents,Transfer_to_Agent,Chat with human
+278,Tracker_Intents,Transfer_to_Agent,Let me talkt o someone
+279,Tracker_Intents,Transfer_to_Agent,Transfer manager
+281,Tracker_Intents,Transfer_to_Agent,Talk to a person
+282,Tracker_Intents,Transfer_to_Agent,Ugh I'm tired of talking to a robot send me to a human
+283,Tracker_Intents,Transfer_to_Agent,Connect me to an agent
+284,Tracker_Intents,Transfer_to_Agent,Speak with person
+285,Tracker_Intents,Transfer_to_Agent,Don't know how much I am paying you
+286,Tracker_Intents,Transfer_to_Agent,I don't love talking to a bot
+287,Tracker_Intents,Transfer_to_Agent,I need help from an agent!
+288,Tracker_Intents,Transfer_to_Agent,Ask agent
+289,Tracker_Intents,Transfer_to_Agent,Just connect me to a human.
+290,Tracker_Intents,Transfer_to_Agent,Can I ask someone?
+291,Tracker_Intents,Transfer_to_Agent,I really need to be transferred
+292,Tracker_Intents,Transfer_to_Agent,I want to go to an agent
+293,Tracker_Intents,Transfer_to_Agent,Transfer to supervisor
+294,Tracker_Intents,Transfer_to_Agent,want a real person
+295,Tracker_Intents,Transfer_to_Agent,transfer me to a human
+296,Tracker_Intents,Transfer_to_Agent,transfer to agent
+297,Tracker_Intents,Transfer_to_Agent,human being to talk to
+299,Tracker_Intents,Transfer_to_Agent,want to chat with a real person
+300,Tracker_Intents,Transfer_to_Agent,want to chat with a human being
+301,Tracker_Intents,Transfer_to_Agent,transfer me to a chat agent
+302,Tracker_Intents,Transfer_to_Agent,send me to a live agent
+303,Tracker_Intents,Transfer_to_Agent,want a real person
+304,Tracker_Intents,Transfer_to_Agent,transfer me to a human
+305,Tracker_Intents,Transfer_to_Agent,transfer to agent
+306,Tracker_Intents,Transfer_to_Agent,human being to talk to
+307,Tracker_Intents,Transfer_to_Agent,chat with a human
+308,Tracker_Intents,Transfer_to_Agent,send me to an agent
+309,Tracker_Intents,Transfer_to_Agent,a real person to chat with
+310,Tracker_Intents,Transfer_to_Agent,to talk to a live agent
+311,Tracker_Intents,Transfer_to_Agent,send me to a human
+312,Tracker_Intents,Transfer_to_Agent,do not want to chat with a bot
+313,Tracker_Intents,Transfer_to_Agent,how do I get to a human
+314,Tracker_Intents,Transfer_to_Agent,chat with a human
+315,Tracker_Intents,Transfer_to_Agent,how do I talk to a person
+316,Tracker_Intents,Transfer_to_Agent,want a human
+317,Tracker_Intents,Transfer_to_Agent,I want you to transfer me to a human right now
+318,Tracker_Intents,Transfer_to_Agent,really need a human being
+319,Tracker_Intents,Transfer_to_Agent,chat with a live agent
+320,Tracker_Intents,Transfer_to_Agent,really need a human being
+321,Tracker_Intents,Transfer_to_Agent,I want you to transfer me to a human right now
+322,Tracker_Intents,Transfer_to_Agent,want a human
+323,Tracker_Intents,Transfer_to_Agent,how do I talk to a person
+324,Tracker_Intents,Transfer_to_Agent,chat with a human
+325,Tracker_Intents,Transfer_to_Agent,how do I get to a human
+326,Tracker_Intents,Transfer_to_Agent,do not want to chat with a bot
+327,Tracker_Intents,Transfer_to_Agent,send me to a human
+328,Tracker_Intents,Transfer_to_Agent,to talk to a live agent
+329,Tracker_Intents,Transfer_to_Agent,a real person to chat with
+330,Tracker_Intents,Transfer_to_Agent,send me to an agent
+331,Tracker_Intents,Transfer_to_Agent,chat with a human
+332,Tracker_Intents,Transfer_to_Agent,human being to talk to
+333,Tracker_Intents,Transfer_to_Agent,transfer to agent
+334,Tracker_Intents,Transfer_to_Agent,transfer me to a human
+335,Tracker_Intents,Transfer_to_Agent,want a real person
+336,Tracker_Intents,Transfer_to_Agent,send me to a live agent
+337,Tracker_Intents,Transfer_to_Agent,transfer me to a chat agent
+338,Tracker_Intents,Transfer_to_Agent,want to chat with a human being
+339,Tracker_Intents,Transfer_to_Agent,want to chat with a real person
