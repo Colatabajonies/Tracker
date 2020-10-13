@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Set_Error_Text</name>
+        <label>Set Error Text</label>
+        <locationX>537</locationX>
+        <locationY>308</locationY>
+        <assignmentItems>
+            <assignToReference>strError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Error: {!$Flow.FaultMessage}</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Status</name>
+        <label>Set Status</label>
+        <locationX>148</locationX>
+        <locationY>189</locationY>
+        <assignmentItems>
+            <assignToReference>objSA.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>strStatus</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_SA</targetReference>
+        </connector>
+    </assignments>
+    <interviewLabel>Tracker - Update Appointment Status {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Tracker - Update Appointment Status</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_SA</name>
+        <label>Update SA</label>
+        <locationX>319</locationX>
+        <locationY>210</locationY>
+        <faultConnector>
+            <targetReference>Set_Error_Text</targetReference>
+        </faultConnector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>objSA.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <elementReference>strStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ServiceAppointment</object>
+    </recordUpdates>
+    <startElementReference>Set_Status</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>objSA</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>ServiceAppointment</objectType>
+    </variables>
+    <variables>
+        <name>strError</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>The Status to update the Service Appointment to</description>
+        <name>strStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

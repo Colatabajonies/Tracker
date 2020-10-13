@@ -1,0 +1,23 @@
+"DeveloperName","Language","MasterLabel","Message"
+"Tracker_Canceled","en_US","Tracker - Canceled","Your appointment ""{!ServiceAppointment.Subject}"" has been canceled."
+"Tracker_Completed","en_US","Tracker - Completed","You have reported completing Appointment ""{!ServiceAppointment.Subject}""."
+"Tracker_Dispatched","en_US","Tracker - Dispatched","All set! You have accepted Appointment ""{!ServiceAppointment.Subject}"".
+Date/Time: {!ServiceAppointment.Tracker_StartTime__c}
+Duration: {!ServiceAppointment.Duration}{!ServiceAppointment.DurationType} 
+To perform the on-site work, please report to: {!ServiceAppointment.Street} {!ServiceAppointment.City}, {!ServiceAppointment.State} {!ServiceAppointment.PostalCode} 
+
+Please let us know when you arrive."
+"Tracker_Status","en_US","Tracker - Job Details","{!ServiceAppointment.Subject}
+Date/Time: {!ServiceAppointment.SchedStartTime} 
+Duration: {!ServiceAppointment.Duration}{!ServiceAppointment.DurationType} 
+Location: {!ServiceAppointment.Street} {!ServiceAppointment.City}, {!ServiceAppointment.State}{!ServiceAppointment.PostalCode}"
+"Tracker_OnSite","en_US","Tracker - OnSite","Great! You have reported beginning work for appointment ""{!ServiceAppointment.Subject}"". Please let us know when you have completed the work."
+"Tracker_Rejected","en_US","Tracker - Rejected","Thanks. You have rejected appointment ""{!ServiceAppointment.Subject}""."
+"Tracker_Scheduled","en_US","Tracker - Scheduled","An appointment has been assigned to you: 
+Subject: {!ServiceAppointment.Subject}
+Date/Time: {!ServiceAppointment.Tracker_StartTime__c}
+Duration: {!ServiceAppointment.Duration}{!ServiceAppointment.DurationType}
+Location: {!ServiceAppointment.Street} {!ServiceAppointment.City}, {!ServiceAppointment.State}{!ServiceAppointment.PostalCode}
+
+Let us know if you can accept this work or not."
+"Tracker_Unscheduled","en_US","Tracker - Unscheduled","Appointment ""{!ServiceAppointment.Subject}"" has been unscheduled, and is no longer assigned to you."

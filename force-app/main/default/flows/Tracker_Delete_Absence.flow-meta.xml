@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Set_Error</name>
+        <label>Set Error</label>
+        <locationX>619</locationX>
+        <locationY>267</locationY>
+        <assignmentItems>
+            <assignToReference>strError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <interviewLabel>Tracker - Delete Absence {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Tracker - Delete Absence</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <name>Delete_Absence</name>
+        <label>Delete Absence</label>
+        <locationX>249</locationX>
+        <locationY>180</locationY>
+        <faultConnector>
+            <targetReference>Set_Error</targetReference>
+        </faultConnector>
+        <inputReference>objAbsence</inputReference>
+    </recordDeletes>
+    <startElementReference>Delete_Absence</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>objAbsence</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>ResourceAbsence</objectType>
+    </variables>
+    <variables>
+        <name>strError</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

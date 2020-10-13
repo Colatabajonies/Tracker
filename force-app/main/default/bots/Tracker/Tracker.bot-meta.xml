@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>Tracker</label>
+        <mlIntents>
+            <developerName>Accept</developerName>
+            <label>Accept</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Accept</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Add_Note</developerName>
+            <label>Add Note</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Add_Note</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Arrive</developerName>
+            <label>Arrive</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Arrive</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Complete</developerName>
+            <label>Complete</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Complete</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Confused</developerName>
+            <label>Confused</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Error_Codes</developerName>
+            <label>Error Codes</label>
+            <mlIntentUtterances>
+                <utterance>errors</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>error code</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>i got an error</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>error codes</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>i have an error</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>error</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Get_Appointment_Status</developerName>
+            <label>Get Appointment Status</label>
+            <mlIntentUtterances>
+                <utterance>more info</utterance>
+            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Get_Appointment_Status</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Knowledge_Search</developerName>
+            <label>Knowledge Search</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Knowledge_Search</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Main_Menu</developerName>
+            <label>Main Menu</label>
+            <mlIntentUtterances>
+                <utterance>Main</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Main menu</utterance>
+            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Main_Menu</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Reject</developerName>
+            <label>Reject</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Reject</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Thank_You</developerName>
+            <label>Thank You</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Thanks</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Transfer_To_Agent</developerName>
+            <label>Transfer To Agent</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Transfer_to_Agent</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>View_Existing_Appointments</developerName>
+            <label>View Existing Appointments</label>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.View_Appointments</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+            <mlIntentUtterances>
+                <utterance>Hello there tracker</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <utterance>Tracker</utterance>
+            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Tracker_Intents.Greetings</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <name>Tracker</name>
+    </botMlDomain>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ChatKey</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ContactId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.LiveChatVisitorId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.Id</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
+    <description>Tracker is an FSL Einstein bot that assists contractors and other FSL resources managing their assigned service appointments over messaging channels</description>
+    <label>Tracker</label>
+</Bot>
